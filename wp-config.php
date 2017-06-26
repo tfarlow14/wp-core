@@ -81,6 +81,12 @@ define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
+/* TO MODULARIZE WORDPRESS CORE */
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+define( 'DISALLOW_FILE_EDIT', true );
+define( 'DISALLOW_FILE_MODS', true );
+
+
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
